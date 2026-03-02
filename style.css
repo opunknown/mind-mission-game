@@ -78,3 +78,22 @@ button {
     margin-top: 15px;
     font-weight: bold;
 }
+
+.site-footer {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 13px;
+    color: #555;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.site-footer a {
+    color: #5b86e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
