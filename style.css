@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background: #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#progressBar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    transition: width 0.4s ease;
+}
+
+button {
+    padding: 12px;
+    margin: 8px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.choice-btn {
+    background: linear-gradient(45deg, #36d1dc, #5b86e5);
+    color: white;
+}
+
+.choice-btn:hover {
+    transform: scale(1.05);
+}
+
+#nextBtn {
+    display: none;
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+    color: white;
+}
+
+.score-box {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
