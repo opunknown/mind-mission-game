@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://opunknown.github.io/mind-mission-game/sitemap.xml
