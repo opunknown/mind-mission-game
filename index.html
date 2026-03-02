@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mind Mission | Free Emotional Intelligence Game for Kids</title>
+
+    <meta name="description" content="Play Mind Mission, a free interactive emotional intelligence game for kids. Practice healthy decision-making, build confidence, and improve emotional awareness through fun levels.">
+    <meta name="keywords" content="emotional intelligence game, kids decision making game, free SEL game, emotional learning game, confidence building game for kids, interactive web game">
+    <meta name="author" content="Mind Mission Game">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://opunknown.github.io/mind-mission-game/">
+
+    <!-- Open Graph for Facebook and LinkedIn -->
+    <meta property="og:title" content="Mind Mission | Free Emotional Intelligence Game for Kids">
+    <meta property="og:description" content="A fun, interactive game that helps kids practice emotional awareness and healthy decision-making.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://opunknown.github.io/mind-mission-game/">
+    <meta property="og:image" content="https://opunknown.github.io/mind-mission-game/preview.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mind Mission | Free Emotional Intelligence Game">
+    <meta name="twitter:description" content="Play a free emotional intelligence game designed to help kids build confidence and smart decision-making skills.">
+    <meta name="twitter:image" content="https://opunknown.github.io/mind-mission-game/preview.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Game",
+      "name": "Mind Mission",
+      "description": "A free interactive emotional intelligence and decision-making web game for kids.",
+      "applicationCategory": "EducationalGame",
+      "operatingSystem": "Web Browser",
+      "genre": "Educational",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+<main class="container">
+
+    <header>
+        <h1>Mind Mission</h1>
+        <p class="tagline">Train Your Mind. Choose Wisely. Level Up.</p>
+    </header>
+
+    <section class="game-section">
+
+        <div class="progress-container" aria-label="Game Progress">
+            <div id="progressBar"></div>
+        </div>
+
+        <div id="gameArea">
+            <h2 id="scenario"></h2>
+            <div id="choices"></div>
+            <p id="feedback"></p>
+            <button id="nextBtn" onclick="nextLevel()">Next Level</button>
+        </div>
+
+        <div class="score-box">
+            <p>Level: <span id="level">1</span></p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
